@@ -1,6 +1,6 @@
 {
   "name": "get-air-distance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "it calculates the air distance between 2 cordinates based on latitude and longitude of 2 location, package can be used by Aviation industry and even different application to calculate the Air distance.",
   "main": "index.js",
   "scripts": {
