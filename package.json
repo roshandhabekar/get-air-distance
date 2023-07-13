@@ -1,0 +1,29 @@
+{
+  "name": "get-air-distance",
+  "version": "1.0.0",
+  "description": "it calculates the air distance between 2 cordinates based on latitude and longitude of 2 location, package can be used by Aviation industry and even different application to calculate the Air distance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshandhabekar/get-air-distance.git"
+  },
+  "keywords": [
+    "airdistance",
+    "get-air-distance",
+    "distance",
+    "aviation-distance",
+    "airport-distance",
+    "station-distance",
+    "distance-based-on-lat-long",
+    "dist-based-on-latitude-longitude"
+  ],
+  "author": "Roshan Dhabekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshandhabekar/get-air-distance/issues"
+  },
+  "homepage": "https://github.com/roshandhabekar/get-air-distance#readme"
+}
