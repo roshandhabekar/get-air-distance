@@ -4,7 +4,9 @@
   "description": "it calculates the air distance between 2 cordinates based on latitude and longitude of 2 location, package can be used by Aviation industry and even different application to calculate the Air distance.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "changelog": "auto-changelog --template changelog-template.hbs -p -u --commit-limit false",
+    "changelog-debug": "auto-changelog --template changelog-template.hbs -p --template json --output changelog-data.json"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,20 @@
   "bugs": {
     "url": "https://github.com/roshandhabekar/get-air-distance/issues"
   },
-  "homepage": "https://github.com/roshandhabekar/get-air-distance#readme"
+  "homepage": "https://github.com/roshandhabekar/get-air-distance#readme",
+  "auto-changelog": {
+    "commitLimit": false,
+    "unreleased": true,
+    "issueUrl": "https://app.clickup.com/t/{id}",
+    "replaceText": {
+      "[Ff]eature:": "",
+      "[Ff]ix:": "",
+      "[Bb]reak:": "",
+      "^ #(.{6})\\s": "[$1](https://app.clickup.com/t/$1) - "
+    },
+    "includeBranch": [
+      "develop",
+      "master"
+    ]
+  }
 }
